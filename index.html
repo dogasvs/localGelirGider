@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gelir Gider</title>
+  <link rel="stylesheet" href="assets/css/gelirgider.css">
+  <script src="assets/js/gelirgider.js" defer></script>
+</head>
+<body>
+  <form class="gelirgider">
+    
+    <div class="gelir">
+      <label class="gelir">Gelir Miktarınız: </label>
+      <input required type="number" name="gelir" placeholder="Gelir Miktarı">
+    </div>
+
+    <div class="gider">
+      <label class="gider">Gider Miktarınız: </label>
+      <input required type="number" name="gider" placeholder="Gider Miktarı">
+    </div>
+    <button class="add" type="submit">Listeye Ekle</button>
+    <button class="delete">Listeyi Sıfırla</button>
+  </form>
+
+
+  <div class="gelir-gider-table">
+
+    <div class="gelirTable">
+      <h3>Gelir Listesi</h3>
+      <ul class="gelirList"></ul>
+    </div>
+
+    <div class="giderTable">
+      <h3>Gider Listesi</h3>
+      <ul class="giderList"></ul>
+    </div>
+
+    <!-- <div class="SonucTable">
+      <h3>Sonuç</h3>
+      <ul class="sonucList"></ul>
+    </div> -->
+
+  </div>
+
+
+
+</body>
+</html>
